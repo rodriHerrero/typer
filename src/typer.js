@@ -17,7 +17,7 @@
   var MODULE = 'typer';
 
   angular
-  .module(MODULE, [])
+  .module('typer', [])
   .directive('typer', ['$timeout', '$interval', Typer]);
 
   /**
